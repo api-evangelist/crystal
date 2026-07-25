@@ -1,8 +1,24 @@
 aid: crystal
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crystal.png
 name: Crystal
-description: 'Crystal is a company surfaced as a portfolio company of kleiner-perkins and added to the
-  API Evangelist network as a stub for enrichment. Sector: hardtech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Crystal (Crystal Semiconductor) was a hardtech company that designed audio and mixed-signal
+  semiconductor chips. Kleiner Perkins partnered with the company in 1986 at the early stage, and Crystal
+  was subsequently acquired by Cirrus Logic. The company was surfaced from the Kleiner Perkins portfolio
+  and added to the API Evangelist network as a lead. It operated as a fabless chip designer rather than
+  a software or platform business, and no longer exists as an independent entity: it publishes no website,
+  no developer portal, and no public API surface of any kind. This profile is retained as a historical
+  portfolio record and is not an API provider.'
 url: https://raw.githubusercontent.com/api-evangelist/crystal/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +26,27 @@ x-backed-by:
 - kleiner-perkins
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-provider: false
+x-api-provider-reason: 'Audio and mixed-signal semiconductor chip company; Kleiner Perkins early-stage partnership from 1986, acquired by Cirrus Logic. Verified 2026-07-20 against the Kleiner Perkins partnerships page: the entry carries no website URL, and the company has no domain, developer portal, or public API surface to enrich. Enrichment produced no artifacts.'
+x-acquired-by: Cirrus Logic
+x-partnered-since: '1986'
+x-enrichment-checked: '2026-07-20'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 tags:
 - Company
 - Hardtech
+- Semiconductors
+- Hardware
+- Audio
+- Mixed Signal
+- Chips
 apis: []
 maintainers:
 - FN: Kin Lane
