@@ -31,7 +31,7 @@ x-api-provider-reason: 'Audio and mixed-signal semiconductor chip company; Klein
 x-acquired-by: Cirrus Logic
 x-partnered-since: '1986'
 x-enrichment-checked: '2026-07-20'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 x-enrichment:
