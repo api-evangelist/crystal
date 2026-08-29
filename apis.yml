@@ -31,6 +31,9 @@ description: 'Crystal (Crystal Semiconductor) was a hardtech company that design
   no developer portal, and no public API surface of any kind. This profile is retained as a historical
   portfolio record and is not an API provider.'
 url: https://raw.githubusercontent.com/api-evangelist/crystal/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "It operated as a fabless chip designer rather than a software or platform business, and no longer exists as an independent entity: it publishes no website, no developer portal, and no public API surfa"
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
